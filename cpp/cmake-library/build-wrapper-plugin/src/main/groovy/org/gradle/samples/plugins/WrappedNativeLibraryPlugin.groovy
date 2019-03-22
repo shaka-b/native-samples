@@ -47,7 +47,6 @@ import javax.inject.Inject
 import static org.gradle.api.artifacts.type.ArtifactTypeDefinition.DIRECTORY_TYPE
 import static org.gradle.api.artifacts.type.ArtifactTypeDefinition.ZIP_TYPE
 import static org.gradle.language.cpp.CppBinary.LINKAGE_ATTRIBUTE
-import static org.gradle.language.cpp.CppBinary.LINKAGE_ATTRIBUTE
 
 class WrappedNativeLibraryPlugin implements Plugin<Project> {
     @Override
